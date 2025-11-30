@@ -1,0 +1,9 @@
+scikit-learn
+pandas
+mlflow
+dvc
+boto3
+evidently
+sagemaker
+joblib
+numpy
