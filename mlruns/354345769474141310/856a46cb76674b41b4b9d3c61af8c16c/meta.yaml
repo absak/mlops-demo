@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/abdel/demoDevOps/mlops-demo/mlruns/354345769474141310/856a46cb76674b41b4b9d3c61af8c16c/artifacts
+end_time: 1764607537748
+entry_point_name: ''
+experiment_id: '354345769474141310'
+lifecycle_stage: active
+run_id: 856a46cb76674b41b4b9d3c61af8c16c
+run_name: gaudy-swan-475
+run_uuid: 856a46cb76674b41b4b9d3c61af8c16c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764607537016
+status: 3
+tags: []
+user_id: abdel

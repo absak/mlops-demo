@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/abdel/demoDevOps/mlops-demo/mlruns/354345769474141310/09146b50f3c84760aee6d0fe5b6f1d53/artifacts
+end_time: 1764607569600
+entry_point_name: ''
+experiment_id: '354345769474141310'
+lifecycle_stage: active
+run_id: 09146b50f3c84760aee6d0fe5b6f1d53
+run_name: abrasive-colt-702
+run_uuid: 09146b50f3c84760aee6d0fe5b6f1d53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764607568971
+status: 3
+tags: []
+user_id: abdel

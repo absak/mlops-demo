@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/abdel/demoDevOps/mlops-demo/mlruns/354345769474141310/1aa93d797bc34e75ac54a47a502d474c/artifacts
+end_time: 1764669488295
+entry_point_name: ''
+experiment_id: '354345769474141310'
+lifecycle_stage: active
+run_id: 1aa93d797bc34e75ac54a47a502d474c
+run_name: bustling-wolf-922
+run_uuid: 1aa93d797bc34e75ac54a47a502d474c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764669486725
+status: 3
+tags: []
+user_id: abdel

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/abdel/demoDevOps/mlops-demo/mlruns/354345769474141310/488944d3b9974490a36fc490dceaec98/artifacts
+end_time: 1764669224148
+entry_point_name: ''
+experiment_id: '354345769474141310'
+lifecycle_stage: active
+run_id: 488944d3b9974490a36fc490dceaec98
+run_name: funny-lynx-974
+run_uuid: 488944d3b9974490a36fc490dceaec98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764669222303
+status: 3
+tags: []
+user_id: abdel

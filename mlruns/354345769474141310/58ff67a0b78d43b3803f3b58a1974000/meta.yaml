@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/abdel/demoDevOps/mlops-demo/mlruns/354345769474141310/58ff67a0b78d43b3803f3b58a1974000/artifacts
+end_time: 1764670091856
+entry_point_name: ''
+experiment_id: '354345769474141310'
+lifecycle_stage: active
+run_id: 58ff67a0b78d43b3803f3b58a1974000
+run_name: intrigued-panda-658
+run_uuid: 58ff67a0b78d43b3803f3b58a1974000
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764670091047
+status: 3
+tags: []
+user_id: abdel
