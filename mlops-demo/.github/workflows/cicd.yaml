@@ -1,0 +1,46 @@
+name: mlops-cicd
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  train-and-log:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure DVC (optionnel si remote)
+        run: |
+          dvc config core.no_scm true
+          dvc pull || true
+
+      - name: Train model
+        run: python src/train.py
+
+      - name: Archive model
+        run: |
+          tar -czf model.tar.gz -C models model.joblib
+          mkdir -p artifacts
+          mv model.tar.gz artifacts/
+
+      # Optionnel : build image Docker
+      - name: Build Docker image
+        run: docker build -t mlops-demo:latest -f docker/Dockerfile .
+
+      # Optionnel : push vers ECR (nécessite secrets AWS)
+      # - name: Push to ECR
+      #   run: |
+      #     aws ecr get-login-password --region eu-west-1 | docker login --username AWS --password-stdin <account>.dkr.ecr.eu-west-1.amazonaws.com
+      #     docker tag mlops-demo:latest <account>.dkr.ecr.eu-west-1.amazonaws.com/mlops-demo:latest
+      #     docker push <account>.dkr.ecr.eu-west-1.amazonaws.com/mlops-demo:latest
