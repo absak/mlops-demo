@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/abdel/demoDevOps/mlops-demo/mlops-demo/mlruns/384053784090465219/1470a2de573a4daba2d56a50877568cf/artifacts
+end_time: 1764684069662
+entry_point_name: ''
+experiment_id: '384053784090465219'
+lifecycle_stage: active
+run_id: 1470a2de573a4daba2d56a50877568cf
+run_name: rogue-cod-223
+run_uuid: 1470a2de573a4daba2d56a50877568cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764684057549
+status: 3
+tags: []
+user_id: abdel

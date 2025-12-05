@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/abdel/demoDevOps/mlops-demo/mlruns/354345769474141310/9faaddfd801e4707a95c6e1f6d64223e/artifacts
+end_time: 1764670228000
+entry_point_name: ''
+experiment_id: '354345769474141310'
+lifecycle_stage: active
+run_id: 9faaddfd801e4707a95c6e1f6d64223e
+run_name: bedecked-wolf-294
+run_uuid: 9faaddfd801e4707a95c6e1f6d64223e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764670226921
+status: 3
+tags: []
+user_id: abdel
